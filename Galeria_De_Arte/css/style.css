@@ -1,0 +1,91 @@
+body {
+    background-color:whitesmoke;
+    margin: 0;
+    font-optical-sizing: auto;
+    font-style: normal; 
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer !important;
+    font-size: 1.5rem;
+}
+
+.contenido {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    margin-top: 10rem;
+}
+
+.contenido-principal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.imagen {
+    width: 200px;
+    margin: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-top: 5rem;
+}
+
+h4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    background-color: rgba(200, 224, 226, 0.8);
+    font-size: medium;
+    margin: 0 5px 50px 5px;
+}
+
+span {
+    font-weight: 400;
+}
+
+.titulo {
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+
+.historia {
+    font-weight: 100;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 50;
+    align-items: center;
+}
+
+textarea {
+    height: 50px;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    font-weight: 200;
+}
